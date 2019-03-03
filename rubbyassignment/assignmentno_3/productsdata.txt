@@ -1,2 +1,1 @@
-1|mobile|2000|1|samsung
-1|tv|2000|12|vodaphone
+1|shubhangi mahajan|12334|11|zerwal

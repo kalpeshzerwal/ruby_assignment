@@ -81,11 +81,10 @@
    	num=gets;
    	num=num.to_i;
    	if(num%2==0)
-   		then
-   	puts "" +num.to_s+ "is even";
-   		else
-   	puts "" +num.to_s+ "is odd"
-   		end
+   		puts "" +num.to_s+ "is even";
+   	else
+   		puts "" +num.to_s+ "is odd"
+   	end
 
     puts"************************************************************************************"
 
@@ -106,10 +105,10 @@
    		f2=1;
    		f3=0;
    	while f3<n do
-			f3=f1+f2
-			puts f3
-			f1=f2
-			f2=f3   		
+		f3=f1+f2
+		puts f3
+		f1=f2
+		f2=f3   		
    	  end	
     end
   end

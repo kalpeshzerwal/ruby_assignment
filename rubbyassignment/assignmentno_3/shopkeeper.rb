@@ -9,7 +9,7 @@ class Shopkeeper
 			product_add.addproduct
 		when 2
 			product_remove = Product.new
-			product_remove.removeproduct
+			product_remove.remove_products
 		when 3
 			product_list = Product.new
 			product_list.list_products
@@ -18,7 +18,7 @@ class Shopkeeper
 			product_search.search_products
 		when 5
 			product_edit = Product.new
-			product_edit.editproduct
+			product_edit.edit_products
 		else
 			puts 'invalid input'
 		end								

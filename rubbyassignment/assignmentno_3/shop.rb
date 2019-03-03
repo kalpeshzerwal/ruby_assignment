@@ -9,8 +9,8 @@ class Shop
 				shopkeeper_obj = Shopkeeper.new	
 				shopkeeper_obj.shopkeeper
 			when 2
-		  	customer_obj = Customer.new
-		  	customer_obj.customer
+		  	customer_obj = Customers.new
+		  	customer_obj.customers
 		  else
 		  	puts'invalid input'
 		end
